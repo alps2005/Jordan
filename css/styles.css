@@ -1,0 +1,27 @@
+body {
+  background-image: url('/img/logo/background_image.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+h1, h3, h5 {
+    font-family: 'Spectral', sans-serif;
+}
+p,label, ul, li, a {
+    font-family: "JetBrains Mono", monospace;
+}
+.bold-font {
+    font-weight: bold;
+}
+/* for containers */
+.glass-property {
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.centered-form{
+    align-items: center
+}
